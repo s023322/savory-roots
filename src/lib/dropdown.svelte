@@ -15,7 +15,7 @@
     </button>
     {#if open}
         <div transition:fade={{duration: 100}} class="fixed flex flex-row left-0 top-16 w-full h-8   justify-evenly items-center">
-            <div class="absolute left-0 top-0 w-full h-full opacity-75 z-0   bg-white border-t-2 text-gray-300"></div>
+            <div class="absolute left-0 top-0 w-full h-full z-0   border-t-2 text-amber-800"></div>
             {#each pages as page}
                 <PlainButton text={page} href="./#{page}"></PlainButton>
             {/each}
