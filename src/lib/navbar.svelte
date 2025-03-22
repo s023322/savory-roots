@@ -4,13 +4,12 @@
     import GradientButton from "./gradient-button.svelte";
 	import PlainButton from "./plain-button.svelte";
     let open = false;
-
-    let itemCount = getContext("item");
-    console.log($itemCount);
 </script>
 
 <main class="z-50 top-0">
-    <div class="fixed top-0 flex w-full {open && "h-24"} {!open && "h-16"}   justify-center backdrop-blur-sm bg-white/[0.75]">
+    <div class="fixed top-0 flex w-full {open && "h-24"} {!open && "h-16"}   justify-center backdrop-blur-sm">
+        <div class="absolute w-full h-16 opacity-75 z-0   bg-white">
+        </div>
         <div class="flex max-w-7xl w-full h-16   justify-between   px-8 z-50">
             <div class="flex   items-center space-x-8">
                 <h1 class="font-display text-2xl mr-16 tracking-tighter   pointer-events-none">Savory Roots</h1>
@@ -20,10 +19,9 @@
                 <Dropdown bind:open text="More" pages="{["About", "Our Process", "Documentation"]}"></Dropdown>
                 <i class="px-2"></i>
             </div>
-            <div class="flex -mr-4   items-center w-fit h-full">
+            <div class="flex   items-center space-x-4">
                 <GradientButton text="shopping_bag" padding="2" font="icons" href="/order"></GradientButton>
-                <h1 class="relative right-3 bottom-3 px-[5px] py-[1px] pointer-events-none   bg-black text-white rounded-full text-xs">{$itemCount}</h1>
+                <h1 class="absolute right-11 top-3 px-[5px] py-[1px]   bg-black text-white rounded-full text-xs">0</h1>
             </div>
-        </div>
     </div>
 </main>

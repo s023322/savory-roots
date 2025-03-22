@@ -12,7 +12,7 @@
                 {#if tstate != i}
                     <GradientButton href="/order" font={font} text={t} padding={pad}></GradientButton>
                 {:else}
-                    <div class="px-{pad} py-1   transition duration-200 bg-linear-to-tl from-amber-300 to-amber-800 rounded-full active:from-white active:to-black">
+                    <div class="px-{pad} py-1   transition duration-200 bg-linear-to-tl from-amber-300 to-amber-800 rounded-full active:from-blue-200">
                         <h1 class="font-{font} text-white">{t}</h1>
                     </div>
                 {/if}
