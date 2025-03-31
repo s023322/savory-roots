@@ -4,16 +4,18 @@
     import { browser } from "$app/environment";
     import { onMount } from "svelte";
     import { cartItems } from "./stores";
+    import Cart from "./cart.svelte";
 
     let {data, page} = $props();
     let pageData = $state();
 
     let cartData;
+    let cartObject;
 
     const unsub = cartItems.subscribe((value) => {cartData = value; if (browser) { localStorage.setItem("cartItems", JSON.stringify(value)); }})
 
-    let innerWidth = $state(browser && window.innerWidth || 800);
-    let cols = $derived(Math.floor((innerWidth - 32) / (256 + 32)));
+    let innerWidth = $state(browser && Math.min(window.innerWidth, 1280) || 800);
+    let cols = $derived(Math.min(Math.floor((innerWidth - 32) / (256 + 128)), 3));
 
     $effect(() => {
         dataChanged(page)
@@ -37,17 +39,19 @@
     }
 
     function updateItems(itemData) {
-        itemCount.set($itemCount + 1);
         cartData["items"].push(itemData);
+        itemCount.set(cartData["items"].length);
         cartItems.set(cartData);
         localStorage.setItem("cartItems", JSON.stringify(cartData));
+        cartObject.updateTotal();
     }
 </script>
 
 <svelte:window bind:innerWidth />
 
+<div class="flex justify-center flex-row   lg:space-x-8">
 <div class="flex justify-center">
-<div style="grid-template-columns: repeat({cols}, minmax(0, 1fr));" class="grid w-fit max-w-7xl   gap-8">
+<div style="grid-template-columns: repeat({cols}, minmax(0, 1fr));" class="grid max-sm:grid-cols-1 max-md:grid-cols-2 w-fit max-w-7xl   gap-8">
 {#each pageData as item, i}
     <div class="flex   w-64 h-64 rounded-3xl p-2 m-0   text-gray-300 border-2">
         <div class="w-full h-full bg-[url(https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg)] bg-cover bg-center   rounded-2xl   overflow-hidden">
@@ -64,5 +68,10 @@
         </div>
     </div>
 {/each}
+</div>
+</div>
+
+<div>
+    <Cart bind:this={cartObject}></Cart>
 </div>
 </div>

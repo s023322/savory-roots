@@ -21,20 +21,17 @@
 </div>
 
 <div class="font-lato">
-    <div class="z-0 flex flex-row justify-center space-x-8">
-        <div class="inline relative mt-24 mb-0   w-fit h-fit">
+    <div class="z-0 flex flex-col md:flex-row justify-center space-x-8">
+        <div class="inline relative max-md:mx-auto mt-24 mb-0   w-fit h-fit">
             <Toggle titles="{["Pickup", "Delivery"]}" text="{["Pickup", "Delivery"]}"></Toggle>
         </div>
-        <div class="inline relative mt-24 w-fit h-fit">
+        <div class="block max-md:mx-auto md:inline relative mt-8 md:mt-24 w-fit h-fit">
             <Toggle font="icons" titles="{["Appetizers", "Meals", "Drinks", "Dessert"]}" bind:tstate text="{["rice_bowl", "ramen_dining", "local_bar", "icecream"]}"></Toggle>
         </div>
     </div>
-    <div class="flex flex-row   space-x-8">
+    <div class="flex justify-center flex-row   space-x-8">
         <div class="flex justify-center pt-8">
             <GridButtons data={foodData} page={tstate}></GridButtons>
-        </div>
-        <div class="pt-8">
-            <Cart></Cart>
         </div>
     </div>
     <!--<div class="flex justify-center w-full h-fit relative mt-8">

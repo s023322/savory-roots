@@ -15,14 +15,21 @@
 </script>
 
 <main class="z-50 top-0">
-    <div class="fixed top-0 flex w-full {open && "h-24"} {!open && "h-16"}   justify-center backdrop-blur-sm bg-white/[0.75]">
+    <div class="fixed top-0 flex w-full {open && "h-72 md:h-24"} {!open && "h-16"}   justify-center backdrop-blur-sm bg-white/[0.75]">
         <div class="flex max-w-7xl w-full h-16   justify-between   px-8 z-50">
             <div class="flex   items-center space-x-8">
                 <h1 class="font-display text-2xl mr-16 tracking-tighter   pointer-events-none">Savory Roots</h1>
                 <PlainButton text="Home" href="/"></PlainButton>
-                <PlainButton text="Our Menu" href="./"></PlainButton>
-                <PlainButton text="Reservation" href="./"></PlainButton>
-                <Dropdown bind:open text="More" pages="{["About", "Our Process", "Documentation"]}"></Dropdown>
+                <div class="hidden sm:flex items-center space-x-8">
+                    <PlainButton text="Our Menu" href="/menu"></PlainButton>
+                    <PlainButton text="Reservation" href="./"></PlainButton>
+                </div>
+                <div class="hidden md:inline">
+                    <Dropdown bind:open text="More" pages="{["About", "Our Process", "Documentation"]}"></Dropdown>
+                </div>
+                <div class="inline md:hidden">
+                    <Dropdown bind:open text="More" pages="{["Our Menu", "Reservation", "About", "Our Process", "Documentation"]}"></Dropdown>
+                </div>
                 <i class="px-2"></i>
             </div>
             <div class="flex -mr-4   items-center w-fit h-full">
