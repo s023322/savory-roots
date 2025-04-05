@@ -14,7 +14,6 @@
     @keyframes btn {
         10%, 90% {
             transform: scale(1.1);
-            pointer-events: none;
         }
     }
     @keyframes delete {
