@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Croissant+One');
+@import url('https://fonts.googleapis.com/css?family=Material+Symbols+Outlined');
+@import 'tailwindcss';
+
+@theme {
+    --font-lato: "Lato", "sans-serif";
+    --font-display: "Croissant One", "georgia";
+    --font-icons: "Material Symbols Outlined";
+
+    --animate-button: btn 250ms ease-in-out 1;
+    --animate-delete: delete 250ms ease-in-out 1;
+
+    @keyframes btn {
+        10%, 90% {
+            transform: scale(1.1);
+        }
+    }
+    @keyframes delete {
+        0%, 100% {
+            transform: scale(0);
+            opacity: 0;
+        }
+    }
+}
+
+:global(html) {
+    font-family: "Lato", "sans-serif";
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

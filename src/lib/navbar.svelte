@@ -1,0 +1,49 @@
+<script>
+	import { getContext } from "svelte";
+    import Dropdown from "./dropdown.svelte";
+    import GradientButton from "./gradient-button.svelte";
+	import PlainButton from "./plain-button.svelte";
+    import { itemCount } from "./stores";
+    import { browser } from "$app/environment";
+    let open = false;
+
+    let count = 0
+
+    const unsub = itemCount.subscribe((value) => {count = value; if (browser) {localStorage.setItem("itemCount", value.toString()); }})
+
+    //console.log($itemCount);
+</script>
+
+<main class="z-50 top-0">
+    <div class="fixed top-0 flex w-full {open && "h-80 sm:h-72 md:h-24"} {!open && "h-16"} transition-all   justify-center backdrop-blur-sm bg-white/[0.75]">
+        <div class="flex max-w-7xl w-full h-16   justify-between   px-8 z-50">
+            <div class="flex   items-center space-x-8">
+                <h1 class="font-display text-xl sm:text-2xl sm:mr-16 tracking-tighter whitespace-nowrap   pointer-events-none">Savory Roots</h1>
+                <div class="hidden sm:flex items-center space-x-8">
+                    <PlainButton text="Home" href="/"></PlainButton>
+                </div>
+                <div class="hidden md:flex item-center space-x-8">
+                    <PlainButton text="Our Menu" href="/menu"></PlainButton>
+                    <PlainButton text="Reservation" href="./"></PlainButton>
+                </div>
+                <div class="max-sm:inline hidden -mr-16">
+                    <Dropdown bind:open text="" hrefs="{["", "menu", "reservation", "about", "process", "documentation"]}" pages="{["Home", "Our Menu", "Reservation", "About", "Our Process", "Documentation"]}"></Dropdown>
+                </div>
+                <div class="hidden md:inline">
+                    <Dropdown bind:open text="More" states={["keyboard_arrow_down", "keyboard_arrow_up"]} hrefs="{["about", "process", "documentation"]}" pages="{["About", "Our Process", "Documentation"]}"></Dropdown>
+                </div>
+                <div class="max-sm:hidden inline md:hidden -mr-16">
+                    <Dropdown bind:open text="" hrefs="{["menu", "reservation", "about", "process", "documentation"]}" pages="{["Our Menu", "Reservation", "About", "Our Process", "Documentation"]}"></Dropdown>
+                </div>
+                <i class="px-2"></i>
+            </div>
+            <div class="hidden lg:flex   items-center">
+                <h1>Mon-Fri 10AM-10PM</h1>
+            </div>
+            <div class="flex -mr-4   items-center w-fit h-full">
+                <GradientButton text="shopping_bag" padding="2" font="icons" href="/order"></GradientButton>
+                <h1 class="relative right-3 bottom-3 px-[5px] py-[1px] pointer-events-none   bg-black text-white rounded-full text-xs">{count}</h1>
+            </div>
+        </div>
+    </div>
+</main>
