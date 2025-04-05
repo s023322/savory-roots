@@ -21,8 +21,10 @@
 
     export function updateTotal () {
         addedPrice = 0;
-        for (let i = 0; i < data["items"].length; i++) {
-            addedPrice += data["items"][i].price;
+        if (data["items"]) {
+            for (let i = 0; i < data["items"].length; i++) {
+                addedPrice += data["items"][i].price;
+            }
         }
     }
 
@@ -65,7 +67,7 @@
     }
 </script>
 
-<div class="lg:w-64 lg:h-fit lg:relative lg:top-0 lg:flex max-lg:{!open && "block w-0 max-w-0 h-0 absolute left-1/2 -translate-x-1/2 top-24"} max-lg:{open && "block h-fit absolute left-1/2 -translate-x-1/2 top-24 px-8 min-w-full max-w-7xl"} transition-all duration-50 overflow-hidden lg:w-64">
+<div class="lg:w-64 lg:h-fit  transition-all duration-50 overflow-hidden lg:relative lg:top-0 lg:flex    max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:absolute max-lg:block   {!open && "max-lg:w-0 max-lg:max-w-0 max-lg:h-0 max-lg:top-24"} {open && "max-lg:h-fit max-lg:top-24 max-lg:px-8 max-lg:min-w-full max-lg:max-w-7xl"}">
     <div class="flex flex-col justify-center p-4 rounded-3xl w-full   text-gray-300 bg-white border-2">
         <h1 class="font-display text-black text-xl">Cart</h1>
         <div class="flex flex-col p-2   text-black">
@@ -87,7 +89,7 @@
     <div class="flex justify-end float-right ml-auto mr-8 py-4">
         <button class="relative flex pointer-events-auto" onclick="{updateDrop}">
             <h1 class="relative left-9 bottom-1.5 px-[5px] py-[1px] pointer-events-none h-min   bg-black text-white rounded-full text-xs">{count}</h1>
-            <GradientButton font="icons" text="{text}" element="h1" href=""></GradientButton>
+            <GradientButton font="icons" text={text} element="h1" href=""></GradientButton>
         </button>
     </div>
 </div>
