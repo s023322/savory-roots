@@ -67,12 +67,12 @@
     }
 </script>
 
-<div class="lg:w-64 lg:h-fit  transition-all duration-50 overflow-hidden lg:relative lg:top-0 lg:flex    max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:absolute max-lg:block   {!open && "max-lg:w-0 max-lg:max-w-0 max-lg:h-0 max-lg:top-24"} {open && "max-lg:h-fit max-lg:top-24 max-lg:px-8 max-lg:min-w-full max-lg:max-w-7xl"}">
+<div class="lg:w-64 lg:h-fit  transition-all duration-50 overflow-hidden lg:relative lg:top-0 lg:flex    max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:absolute max-lg:block   {!open && "max-lg:w-0 max-lg:max-w-0 max-lg:h-0 max-lg:top-24"} {open && "max-lg:block max-lg:h-fit max-lg:top-24 max-lg:px-8 max-lg:min-w-full max-lg:max-w-7xl"}">
     <div class="flex flex-col justify-center p-4 rounded-3xl w-full   text-gray-300 bg-white border-2">
         <h1 class="font-display text-black text-xl">Cart</h1>
         <div class="flex flex-col p-2   text-black">
             {#each items as item, i}
-                    <button onclick={() => {removeItem(item); updateTotal()}} class="w-full flex flex-row justify-between   text-black hover:text-amber-300 cursor-pointer transition-colors duration-200 active:animate-delete">
+                    <button onclick={() => {removeItem(item); updateTotal()}} class="w-full flex flex-row justify-between   text-black hover:text-amber-300 cursor-pointer transition-colors duration-200  active:animate-delete">
                         <h1>{item.name}</h1>
                         <h1>${item.price}</h1>
                     </button>

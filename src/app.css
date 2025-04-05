@@ -17,9 +17,8 @@
         }
     }
     @keyframes delete {
-        0%, 100% {
-            transform: scale(0);
-            opacity: 0;
+        75%, 100% {
+            transform: scale(0.1);
         }
     }
 }

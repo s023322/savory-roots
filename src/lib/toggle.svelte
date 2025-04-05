@@ -9,7 +9,7 @@
         {#each text as t, i}
             <button title={titles[i]} class="active:animate-button flex relative w-min h-min" onclick={() => tstate = i}>
                 {#if tstate != i}
-                    <GradientButton href="#{titles[i]}" element="a" font={font} text={t} padding={pad}></GradientButton>
+                    <GradientButton href="" element="div" font={font} text={t} padding={pad}></GradientButton>
                 {:else}
                     <div class="px-{pad} py-1   transition duration-200 bg-linear-to-tl from-amber-300 to-amber-800 rounded-full cursor-pointer select-none">
                         <h1 class="font-{font} text-white">{t}</h1>
