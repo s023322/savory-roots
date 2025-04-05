@@ -72,7 +72,7 @@
         <h1 class="font-display text-black text-xl">Cart</h1>
         <div class="flex flex-col p-2   text-black">
             {#each items as item, i}
-                    <button onclick={() => {removeItem(item); updateTotal()}} class="w-full flex flex-row justify-between   text-black hover:text-amber-300 cursor-pointer transition-colors duration-200  active:animate-delete">
+                    <button onmousedown={() => {removeItem(item); updateTotal()}} class="w-full flex flex-row justify-between   text-black hover:text-amber-300 cursor-pointer transition-colors duration-200  active:animate-delete">
                         <h1>{item.name}</h1>
                         <h1>${item.price}</h1>
                     </button>
