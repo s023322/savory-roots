@@ -39,6 +39,9 @@
     }
 
     function updateItems(itemData) {
+        if (!cartData["items"]) {
+            cartData = {"items":[]};
+        }
         cartData["items"].push(itemData);
         itemCount.set(cartData["items"].length);
         cartItems.set(cartData);

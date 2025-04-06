@@ -1,6 +1,6 @@
 <script>
 	import GradientButton from "./gradient-button.svelte";
-	import { itemCount } from "./stores";
+	import { itemCount, cartTotal } from "./stores";
     import { browser } from "$app/environment";
     import { cartItems } from "./stores";
     import { get } from "svelte/store";
@@ -26,6 +26,9 @@
                 addedPrice += data["items"][i].price;
             }
         }
+        localStorage.setItem("cartTotal", addedPrice.toString());
+        cartTotal.set(addedPrice);
+        
     }
 
     $effect (() => {
@@ -73,16 +76,27 @@
         <div class="flex flex-col p-2   text-black">
             {#each items as item, i}
                     <button onmousedown={() => {removeItem(item); updateTotal()}} class="w-full flex flex-row justify-between   text-black hover:text-amber-300 cursor-pointer transition-colors duration-200  active:animate-delete">
-                        <h1>{item.name}</h1>
+                        <div class="flex items-center space-x-2">
+                            <h1 class="font-icons">close</h1>
+                            <h1>{item.name}</h1>
+                        </div>
                         <h1>${item.price}</h1>
                     </button>
             {/each}
             <div class="w-full h-0.5 my-2 bg-amber-800"></div>
-            <div class="flex flex-row -mb-2   justify-between">
+            <div class="flex flex-row   justify-between -mb-2">
                 <h1>Total</h1>
                 <h1>${addedPrice}</h1>
             </div>
         </div>
+        {#if count > 0}
+        <div class="mt-4 text-gray-300 border-2 rounded-full w-min hover:border-white">
+            <a class="flex flex-row w-min   space-x-4 items-center   group   bg-white hover:bg-black rounded-full pl-2   border-2 text-white hover:text-black" href="/checkout/">
+                <h1 class="text-black group-hover:text-white text-nowrap">Checkout</h1>
+                <GradientButton element="div" text="arrow_outward" title="Order" font="icons" href="/checkout/"></GradientButton>
+            </a>
+        </div>
+        {/if}
     </div>
 </div>
 <div class="fixed z-60 top-0 w-full left-0  flex lg:hidden pointer-events-none">

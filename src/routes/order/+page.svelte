@@ -1,6 +1,6 @@
 <script>
     import {base} from "$app/paths"
-	import { page } from "$app/stores";
+	import { page } from "$app/state";
 	import GradientButton from "$lib/gradient-button.svelte";
 	import GridButtons from "$lib/grid-buttons.svelte";
 	import Input from "$lib/input.svelte";
@@ -9,15 +9,42 @@
 	import Toggle from "$lib/toggle.svelte";
     import foodData from "$lib/items.json";
     import Cart from "$lib/cart.svelte";
+    import { onMount } from "svelte";
+    import { browser } from "$app/environment";
+    import { cartItems, cartTotal, itemCount } from "$lib/stores";
 
     let tstate = 0;
     let input = "";
     let pages = ["Appetizers", "Meals", "Drinks", "Dessert"];
+    
+    let orderReceived = page.url.searchParams.has("status");
+    let orderStatus = "";
+    if (orderReceived) {
+        orderStatus = page.url.searchParams.get("status");
+        if (orderStatus.includes("complete") && browser) {
+            localStorage.setItem("cartItems", '{"items":[]}');
+            cartItems.set({"items":[]});
+            localStorage.setItem("itemCount", "0");
+            itemCount.set(0);
+            localStorage.setItem("cartTotal", "0");
+            cartTotal.set(0);
+        }
+    }
 </script>
 
 <div class="z-50 fixed">
     <Navbar></Navbar>
 </div>
+
+
+{#if orderReceived}
+<button onclick={() => {orderReceived = !orderReceived}} class="fixed left-0 top-32 w-full h-fit flex justify-center z-100 cursor-pointer">
+    <div class="backdrop-blur-sm bg-white/[0.9] w-fit h-fit px-4 py-2 border-2 text-gray-300 rounded-lg space-y-4">
+        <h1 class="font-display text-2xl text-black">Order {orderStatus.includes("complete") ? "Complete" : "Failed"} <span class="relative top-1 font-icons">{orderStatus.includes("complete") ? "check" : "close"}</span></h1>
+        <h1 class="text-lg text-black font-lato mb-2">{orderStatus.includes("complete") ? "Thank you!" : "Sorry, we couldn't complete your order"}</h1>
+    </div>
+</button>
+{/if}
 
 <div class="font-lato">
     <div class="z-0 flex flex-col md:flex-row justify-center space-x-8">
