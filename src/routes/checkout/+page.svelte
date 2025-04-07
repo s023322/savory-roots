@@ -99,13 +99,17 @@ const options = {
             bind:elements
             theme="flat"
             fonts={[{
-                family: "Lato",
-                src:"url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXjeu.woff2)",
+                cssSrc: "https://fonts.googleapis.com/css?family=Lato"
+                },
+                {
+                cssSrc: "https://fonts.googleapis.com/css2?family=Croissant+One"
                 }]}
-            variables={{fontFamily:"Lato, system-ui, sans-serif", colorDanger:"#7b3306", fontSizeBase:"16px", colorPrimaryText:"white", colorText:"black", colorPrimary:"#e17100", colorBackground:"white", borderRadius:"8px"}}
+            variables={{fontFamily: "Croissant One, sans-serif, system-ui", colorDanger:"#7b3306", fontSizeBase:"16px", colorPrimaryText:"white", colorText:"black", colorPrimary:"#e17100", colorBackground:"white", borderRadius:"8px"}}
+            rules={{".Input":{fontFamily:"Lato", padding:"8px"}}}
             >
             <form on:submit|preventDefault={submit}>
-                <PaymentElement />
+                <div class="hidden"><LinkAuthenticationElement /></div>
+                <PaymentElement options={{layout: {type:"tabs", defaultCollapsed:false}}} />
     
                 <button class="w-fit mx-auto relative block mt-8" disabled={processing}>
                     {#if processing}
