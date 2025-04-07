@@ -1,0 +1,10 @@
+{
+	"/": [],
+	"/about": [],
+	"/checkout": [],
+	"/menu": [],
+	"/order": [],
+	"/payment-intent": [
+		"src/routes/payment-intent/+server.js"
+	]
+}

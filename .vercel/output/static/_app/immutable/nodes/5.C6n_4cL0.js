@@ -1,0 +1,1 @@
+import{c as e,h as n,a as m}from"../chunks/CYoz0CFR.js";import{f as s,$ as i}from"../chunks/BH-x3xJj.js";import{s as p}from"../chunks/5_erstYV.js";function l(a,r){var o=e();n(c=>{i.title="Order | Savory Roots"});var t=s(o);p(t,()=>r.children),m(a,o)}export{l as component};
