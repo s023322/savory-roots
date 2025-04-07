@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Checkout | Savory Roots</title>
+	<title>Process | Savory Roots</title>
 </svelte:head>
 
 {@render children()}

@@ -24,7 +24,7 @@
                 </div>
                 <div class="hidden md:flex item-center space-x-8">
                     <PlainButton text="Our Menu" href="/menu"></PlainButton>
-                    <PlainButton text="Reservation" href="./"></PlainButton>
+                    <PlainButton text="Reservation" href="/reservation"></PlainButton>
                 </div>
                 <div class="max-sm:inline hidden -mr-16">
                     <Dropdown bind:open text="" hrefs="{["", "menu", "reservation", "about", "process", "documentation"]}" pages="{["Home", "Our Menu", "Reservation", "About", "Our Process", "Documentation"]}"></Dropdown>
