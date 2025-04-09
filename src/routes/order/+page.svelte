@@ -52,7 +52,7 @@
             <Toggle titles="{["Pickup", "Delivery"]}" text="{["Pickup", "Delivery"]}"></Toggle>
         </div>
         <div class="block max-md:mx-auto md:inline relative mt-8 md:mt-24 w-fit h-fit">
-            <Toggle font="icons" pad="[9px]" space="4" titles="{["Appetizers", "Meals", "Drinks", "Dessert"]}" bind:tstate text="{["rice_bowl", "ramen_dining", "local_bar", "icecream"]}"></Toggle>
+            <Toggle font="icons" pad="[9px]" space="4" titles="{["Appetizers", "Dumplings", "Noodles", "Vegetables", "Soups", "Rices"]}" bind:tstate text="{["rice_bowl", "dinner_dining", "ramen_dining", "local_bar", "psychiatry", "soup_kitchen", "rice_bowl"]}"></Toggle>
         </div>
     </div>
     <div class="w-full justify-center flex mt-8">
