@@ -15,7 +15,7 @@
 
     let tstate = 0;
     let input = "";
-    let pages = ["Appetizers", "Meals", "Drinks", "Dessert"];
+    let pages = ["Appetizers", "Dumplings", "Noodles", "Vegetables", "Soups", "Rices"];
     
     let orderReceived = page.url.searchParams.has("status");
     let orderStatus = "";
