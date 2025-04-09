@@ -27,15 +27,21 @@
             pageData = data.appetizers;
             break;
         case 1:
-            pageData = data.meals;
+            pageData = data.dumplings;
             break;
         case 2:
-            pageData = data.drinks;
+            pageData = data.noodles;
             break;
         case 3:
-            pageData = data.desserts;
+            pageData = data.vegetables;
             break;
-        }
+	case 4:
+	    pageData = data.soups
+	    break;
+	case 5:
+	    pageData = data.rices
+	    break;
+	}
     }
 
     function updateItems(itemData) {
