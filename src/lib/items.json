@@ -3,46 +3,128 @@
     [
         {
             "name": "Scallion Pancake",
-            "description": "Crispy Pancakes infused with a savory cream cheese filling cooked to golden perfection. Topped with diced Green Onions.",
-            "price": 15
+            "description": "Pancakes infused with a cream cheese filling, topped with diced green onions.",
+            "price": 7
         },
         {
             "name": "Spring Rolls",
-            "description": "Vegetarian spring rolls",
-            "price": 14
+            "description": "Pan fried pastry sheets, served with spring onions, cabbage or carrots.",
+            "price": 8
         },
         {
-            "name": "Spring Rolls",
-            "description": "Vegetarian spring rolls",
-            "price": 13
+            "name": "Stuffed Eggplant",
+            "description": "Eggplant stuffed with vegetables, and a side of Yuxiang sauce.",
+            "price": 9
         },
         {
-            "name": "Spring Rolls",
-            "description": "Vegetarian spring rolls",
+            "name": "Seaweed Salad",
+            "description": "Seaweed topped with onions, scallions and carrots, and a side of peanut sauce.",
+            "price": 12
+        },
+        {
+            "name": "Cucumber Salad",
+            "description": "Sliced cucumbers topped with red onions, and a white vinegar dressing.",
             "price": 12
         }
     ],
-    "meals":
+    "dumplings":
     [
         {
-            "name": "Spring Rolls",
+            "name": "Shiitake Wonton",
+            "description": "Vegetarian spring rolls",
+            "price": 12
+        },
+        {
+            "name": "Chive Dumplings",
             "description": "Vegetarian spring rolls",
             "price": 10
         },
         {
-            "name": "Spring Rolls",
+            "name": "Sticky Rice Shumai",
             "description": "Vegetarian spring rolls",
-            "price": 9
+            "price": 15
         },
         {
-            "name": "Spring Rolls",
+            "name": "Vegetable Buns",
             "description": "Vegetarian spring rolls",
             "price": 8
+        }
+    ],
+    "noodles":
+    [
+        {
+            "name": "Seasonal Mix Ho Fun",
+            "description": "Vegetarian spring rolls",
+            "price": 16
         },
         {
-            "name": "Spring Rolls",
+            "name": "Sesame Oil House Noodles",
             "description": "Vegetarian spring rolls",
-            "price": 7
+            "price": 15
+        },
+        {
+            "name": "Spicy Sauce House Noodles",
+            "description": "Vegetarian spring rolls",
+            "price": 15
+        }
+    ],
+    "vegetables":
+    [
+        {
+            "name": "Stir Fried Bok Choy",
+            "description": "Vegetarian spring rolls",
+            "price": 13
+        },
+        {
+            "name": "String Beans with Garlic",
+            "description": "Vegetarian spring rolls",
+            "price": 15
+        },
+        {
+            "name": "Broccoli with Garlic",
+            "description": "Vegetarian spring rolls",
+            "price": 13
+        }
+    ],
+    "soups":
+    [
+        {
+            "name": "Mushroom Wonton",
+            "description": "Vegetarian spring rolls",
+            "price": 13
+        },
+        {
+            "name": "Seasonal Medley",
+            "description": "Vegetarian spring rolls",
+            "price": 15
+        },
+        {
+            "name": "Lotus Roots",
+            "description": "Vegetarian spring rolls",
+            "price": 13
+        }
+    ],
+    "rices":
+    [
+        {
+            "name": "Mapo Tofu over Rice",
+            "description": "Vegetarian spring rolls",
+            "price": 14
+        },
+        {
+            "name": "Seasonal Fried Rice",
+            "description": "Vegetarian spring rolls",
+            "price": 11
+        },
+        {
+            "name": "House Fried Rice",
+            "description": "Vegetarian spring rolls",
+            "price": 13
+        },
+        {
+            "name": "Garlic Eggplant over Rice",
+            "description": "Vegetarian spring rolls",
+            "price": 12
         }
     ]
 }
