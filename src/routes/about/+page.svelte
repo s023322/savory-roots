@@ -25,4 +25,5 @@
     <Question question="Do you offer takeout?" answer="Yes, we currently offer takeout on our website. See the menu tab for more information."></Question>
     <Question question="What methods of payment do you accept?" answer="We currently accept cash, credit, debit cards and Apple pay as valid forms of payment."></Question>
     <Question question="Do you use locally-sourced ingredients in your recipes?" answer="Yes, it is our mission to provide great food at a great value, something that comes in part from the help of our local community and partners who supply us with pesticide free, organic ingredients weekly."></Question>
+    <div class="mb-16"></div>
 </div>

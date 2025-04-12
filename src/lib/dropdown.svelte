@@ -8,10 +8,9 @@
         open = !open;
     }
 </script>
-
-<main>
-    <button type="button" class="group cursor-pointer active:animate-button" onclick={updateOpen}>
-        <h1 class="text-black group-hover:text-amber-800">{ text }<span class="font-icons relative ml-1 -bottom-0.5">{!open ? states[0] : states[1]}</span></h1>
+<div class="h-6">
+    <button type="button" class="group cursor-pointer active:animate-button flex items-center" onclick={updateOpen}>
+        <h1 class="text-black group-hover:text-amber-800 h-6 items-center flex">{ text }<span class="font-icons ml-1 mt-0.5">{!open ? states[0] : states[1]}</span></h1>
     </button>
     <!--{#if open}-->
         <div class="fixed flex h-64 flex-col md:flex-row left-0 top-16 w-full md:h-8 overflow-hidden transition-all {open ? "max-h-screen sm:max-h-56 max-md:pb-8" : "max-h-0"}   justify-center md:justify-evenly md:items-center">
@@ -23,4 +22,4 @@
             {/each}{/if}
         </div>
     <!--{/if}-->
-</main>
+</div>

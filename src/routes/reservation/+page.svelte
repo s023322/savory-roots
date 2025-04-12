@@ -38,7 +38,7 @@
 
 <div class="z-0 font-lato">
     <div class="mt-32 mx-auto w-full max-w-7xl px-8 flex flex-col justify-center">
-        <div class="w-full max-w-2xl mx-auto justify-between flex flex-row max-sm:flex-col border-2 rounded-full max-sm:rounded-xl pl-5 pr-2 py-2 items-center text-gray-300">
+        <div class="w-fit sm:w-full max-w-2xl mx-auto justify-between flex flex-row max-sm:flex-col border-2 rounded-full max-sm:rounded-xl sm:pl-5 sm:pr-2 max-sm:px-4 max-sm:py-4 sm:py-2 items-center text-gray-300">
             <input id="date" class="text-xl text-black border-b-2 px-2" type="date" min="2025-04-23" value="2025-04-23" onchange={checkDate}>
             <input id="time" class="text-black px-2 py-0.5 border-b-2" value="13:30" min="10:00" max="22:00" type="time" onchange={checkDate}>
             <div class="flex flex-row space-x-2 text-black">
@@ -48,7 +48,7 @@
             <h1 id="status" class="font-icons text-amber-800">close</h1>
             <button onclick={submitDate}><GradientButton href="" element="div" text="Submit" padding="8"></GradientButton></button>
         </div>
-        <div class="w-fit mx-auto mt-8 h-fit border-2 text-gray-300 rounded-xl p-2">
+        <div class="w-fit mx-auto mt-8 h-fit border-2 text-gray-300 rounded-xl p-4">
             <h1 id="header" class="text-black font-display text-xl text-center">This time is not available, sorry</h1>
             <p id="body" class="text-black font-lato text-center mt-2">Try another time or date</p>
         </div>

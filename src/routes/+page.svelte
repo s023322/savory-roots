@@ -39,7 +39,4 @@
             </div>
         </div>
     </div>
-    <div class="relative top-[2560px] px-[9px]">
-        <h1>sd</h1>
-    </div>
 </div>
