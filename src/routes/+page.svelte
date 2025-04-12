@@ -17,7 +17,7 @@
     </div>-->
     <div class="relative top-0 w-full h-[512px] flex   justify-center items-center">
         <div class="flex w-full max-w-7xl h-full">
-            <div class="flex flex-row bg-white/[0.5] backdrop-blur-sm w-fit h-full px-8   items-center">
+            <div class="flex flex-row bg-white/[0.7] backdrop-blur-sm w-fit h-full px-8   items-center">
                 <h1 class="font-lato">Welcome to Savory Roots <br> <span class="font-display text-black text-left text-4xl tracking-tighter">Fresh food from farm to fork.</span></h1>
                 <div class="absolute bottom-8 left-8 flex w-min h-min space-x-4">
                     <a href="https://instagram.com" aria-label="Instagram" class="size-8 p-2 flex justify-center align-items transition duration-200 from-black to-black bg-linear-to-tl rounded-full fill-white    hover:from-amber-300 hover:to-amber-800 active:from-white active:to-black active:animate-button">

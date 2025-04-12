@@ -4,27 +4,37 @@
         {
             "name": "Scallion Pancake",
             "description": "Pancakes infused with a cream cheese filling, topped with diced green onions.",
-            "price": 7
+            "price": 7,
+            "from": "oklch(89.7% 0.196 126.665)",
+            "to": "oklch(96.2% 0.059 95.617)"
         },
         {
             "name": "Spring Rolls",
             "description": "Pan fried pastry sheets, served with spring onions, cabbage or carrots.",
-            "price": 8
+            "price": 8,
+            "from": "oklch(87.9% 0.169 91.605)",
+            "to": "oklch(96.2% 0.059 95.617)"
         },
         {
             "name": "Stuffed Eggplant",
             "description": "Eggplant stuffed with vegetables, and a side of Yuxiang sauce.",
-            "price": 9
+            "price": 9,
+            "from": "oklch(89.7% 0.196 126.665)",
+            "to": "oklch(70.2% 0.183 293.541)"
         },
         {
             "name": "Seaweed Salad",
             "description": "Seaweed topped with onions, scallions and carrots, and a side of peanut sauce.",
-            "price": 12
+            "price": 12,
+            "from": "oklch(85.5% 0.138 181.071)",
+            "to": "oklch(84.1% 0.238 128.85)"
         },
         {
             "name": "Cucumber Salad",
             "description": "Sliced cucumbers topped with red onions, and a white vinegar dressing.",
-            "price": 12
+            "price": 12,
+            "from": "oklch(62.7% 0.194 149.214)",
+            "to": "oklch(93.8% 0.127 124.321)"
         }
     ],
     "dumplings":
@@ -32,22 +42,30 @@
         {
             "name": "Shiitake Wonton",
             "description": "Vegetarian spring rolls",
-            "price": 12
+            "price": 12,
+            "from": "oklch(28.6% 0.066 53.813)",
+            "to": "oklch(94.5% 0.129 101.54)"
         },
         {
             "name": "Chive Dumplings",
             "description": "Vegetarian spring rolls",
-            "price": 10
+            "price": 10,
+            "from": "oklch(84.1% 0.238 128.85)",
+            "to": "oklch(94.5% 0.129 101.54)"
         },
         {
             "name": "Sticky Rice Shumai",
             "description": "Vegetarian spring rolls",
-            "price": 15
+            "price": 15,
+            "from": "oklch(66.6% 0.179 58.318)",
+            "to": "oklch(90.1% 0.076 70.697)"
         },
         {
             "name": "Vegetable Buns",
             "description": "Vegetarian spring rolls",
-            "price": 8
+            "price": 8,
+            "from": "oklch(89.7% 0.196 126.665)",
+            "to": "oklch(83.7% 0.128 66.29)"
         }
     ],
     "noodles":
@@ -55,17 +73,23 @@
         {
             "name": "Seasonal Mix Ho Fun",
             "description": "Vegetarian spring rolls",
-            "price": 16
+            "price": 16,
+            "from": "oklch(93.8% 0.127 124.321)",
+            "to": "oklch(83.7% 0.128 66.29)"
         },
         {
             "name": "Sesame Oil House Noodles",
             "description": "Vegetarian spring rolls",
-            "price": 15
+            "price": 15,
+            "from": "oklch(92.4% 0.12 95.746)",
+            "to": "oklch(83.7% 0.128 66.29)"
         },
         {
             "name": "Spicy Sauce House Noodles",
             "description": "Vegetarian spring rolls",
-            "price": 15
+            "price": 15,
+            "from": "oklch(70.4% 0.191 22.216)",
+            "to": "oklch(83.7% 0.128 66.29)"
         }
     ],
     "vegetables":
@@ -73,35 +97,40 @@
         {
             "name": "Stir Fried Bok Choy",
             "description": "Vegetarian spring rolls",
-            "price": 13
+            "price": 13,
+            "from": "oklch(76.8% 0.233 130.85)",
+            "to": "white"
         },
         {
             "name": "String Beans with Garlic",
             "description": "Vegetarian spring rolls",
-            "price": 15
+            "price": 15,
+            "from": "oklch(27.4% 0.072 132.109)",
+            "to": "oklch(64.8% 0.2 131.684)"
         },
         {
             "name": "Broccoli with Garlic",
             "description": "Vegetarian spring rolls",
-            "price": 13
+            "price": 13,
+            "from": "oklch(27.4% 0.072 132.109)",
+            "to": "oklch(97.3% 0.071 103.193)"
         }
     ],
     "soups":
     [
         {
-            "name": "Mushroom Wonton",
-            "description": "Vegetarian spring rolls",
-            "price": 13
-        },
-        {
             "name": "Seasonal Medley",
             "description": "Vegetarian spring rolls",
-            "price": 15
+            "price": 15,
+            "from": "oklch(63.7% 0.237 25.331)",
+            "to": "oklch(74% 0.238 322.16)"
         },
         {
             "name": "Lotus Roots",
             "description": "Vegetarian spring rolls",
-            "price": 13
+            "price": 13,
+            "from": "oklch(89.7% 0.196 126.665)",
+            "to": "oklch(95.4% 0.038 75.164)"
         }
     ],
     "rices":
@@ -109,22 +138,30 @@
         {
             "name": "Mapo Tofu over Rice",
             "description": "Vegetarian spring rolls",
-            "price": 14
+            "price": 14,
+            "from": "oklch(83.7% 0.128 66.29)",
+            "to": "white"
         },
         {
             "name": "Seasonal Fried Rice",
             "description": "Vegetarian spring rolls",
-            "price": 11
+            "price": 11,
+            "from": "oklch(63.7% 0.237 25.331)",
+            "to": "white"
         },
         {
             "name": "House Fried Rice",
             "description": "Vegetarian spring rolls",
-            "price": 13
+            "price": 13,
+            "from": "oklch(82.8% 0.111 230.318)",
+            "to": "white"
         },
         {
             "name": "Garlic Eggplant over Rice",
             "description": "Vegetarian spring rolls",
-            "price": 12
+            "price": 12,
+            "from": "oklch(70.2% 0.183 293.541)",
+            "to": "white"
         }
     ]
 }

@@ -18,7 +18,7 @@
     <div class="fixed top-0 flex w-full {open && "h-80 sm:h-72 md:h-24"} {!open && "h-16"} transition-all   justify-center backdrop-blur-sm bg-white/[0.75]">
         <div class="flex max-w-7xl w-full h-16   justify-between   px-8 z-50">
             <div class="flex   items-center space-x-8">
-                <h1 class="font-display text-xl sm:text-2xl sm:mr-16 tracking-tighter whitespace-nowrap   pointer-events-none">Savory Roots</h1>
+                <a class="font-display text-xl sm:text-2xl sm:mr-16 tracking-tighter whitespace-nowrap" href="/">Savory Roots</a>
                 <div class="hidden sm:flex items-center space-x-8">
                     <PlainButton text="Home" href="/"></PlainButton>
                 </div>

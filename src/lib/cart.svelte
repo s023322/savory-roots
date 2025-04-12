@@ -70,7 +70,7 @@
     }
 </script>
 
-<div class="lg:w-64 lg:h-fit  transition-all duration-50 overflow-hidden lg:relative lg:top-0 lg:flex    max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:absolute max-lg:block   {!open && "max-lg:w-0 max-lg:max-w-0 max-lg:h-0 max-lg:top-24"} {open && "max-lg:block max-lg:h-fit max-lg:top-24 max-lg:px-8 max-lg:min-w-full max-lg:max-w-7xl"}">
+<div class="lg:w-64 lg:h-fit  transition-all duration-50 overflow-hidden lg:relative lg:top-0 lg:flex    max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:fixed max-lg:block   {!open && "max-lg:w-0 max-lg:max-w-0 max-lg:h-0 max-lg:top-24"} {open && "max-lg:block max-lg:h-fit max-lg:top-24 max-lg:px-8 max-lg:min-w-full max-lg:max-w-7xl"}">
     <div class="flex flex-col justify-center p-4 rounded-3xl w-full   text-gray-300 bg-white border-2">
         <h1 class="font-display text-black text-xl">Cart</h1>
         <div class="flex flex-col p-2   text-black">
@@ -93,7 +93,7 @@
         <div class="mt-4 text-gray-300 border-2 rounded-full w-min hover:border-white">
             <a class="flex flex-row w-min   space-x-4 items-center   group   bg-white hover:bg-black rounded-full pl-2   border-2 text-white hover:text-black" href="/checkout/">
                 <h1 class="text-black group-hover:text-white text-nowrap">Checkout</h1>
-                <GradientButton element="div" text="arrow_outward" title="Order" font="icons" href="/checkout/"></GradientButton>
+                <GradientButton element="div" text="arrow_outward" title="Checkout" font="icons" href="/checkout/"></GradientButton>
             </a>
         </div>
         {/if}

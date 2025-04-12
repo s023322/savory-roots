@@ -38,9 +38,9 @@
 
 <div class="z-0 font-lato">
     <div class="mt-32 mx-auto w-full max-w-7xl px-8 flex flex-col justify-center">
-        <div class="w-full max-w-2xl mx-auto justify-between flex flex-row border-2 rounded-full pl-5 pr-2 py-2 items-center text-gray-300">
+        <div class="w-full max-w-2xl mx-auto justify-between flex flex-row max-sm:flex-col border-2 rounded-full max-sm:rounded-xl pl-5 pr-2 py-2 items-center text-gray-300">
             <input id="date" class="text-xl text-black border-b-2 px-2" type="date" min="2025-04-23" value="2025-04-23" onchange={checkDate}>
-            <input id="time" class="text-black px-2 border-b-2" value="13:30" min="10:00" max="22:00" type="time" onchange={checkDate}>
+            <input id="time" class="text-black px-2 py-0.5 border-b-2" value="13:30" min="10:00" max="22:00" type="time" onchange={checkDate}>
             <div class="flex flex-row space-x-2 text-black">
                 <h1 class="">People:</h1>
                 <input id="people" class="text-black w-12 px-2 border-b-2" value="1" min="1" max="10" type="number" onchange={checkDate}>
