@@ -15,10 +15,10 @@
     <h1 class="font-display text-2xl text-black relative mt-16 mb-8">Reference Page</h1>
     <p>All styling and theme created by 2082-901. Frameworks were used for components and efficiency, but no templates were used.</p>
     <div class="flex space-x-8">
-        <GradientButton text="Work Log" padding=4 href="/src/lib/worklog.pdf"></GradientButton>
+        <GradientButton text="Work Log" padding=4 href="https://drive.google.com/file/d/1Nca0eQiXdEC0xupED2IMtccfmfoogZiw/view?usp=sharing"></GradientButton>
     </div>
     <div class="flex space-x-8">
-        <GradientButton text="Copyright Checklist" padding=4 href="/src/lib/copyright.pdf"></GradientButton>
+        <GradientButton text="Copyright Checklist" padding=4 href="https://drive.google.com/file/d/1gJLT0PP3iMU09DSZ6ha4ks5CXlmSWtWI/view?usp=sharing"></GradientButton>
     </div>
     
     <div class="w-full h-7 border-b-2 border-amber-800"></div>
