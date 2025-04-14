@@ -27,13 +27,13 @@
                     <PlainButton text="Reservation" href="/reservation"></PlainButton>
                 </div>
                 <div class="max-sm:inline hidden -mr-16">
-                    <Dropdown bind:open text="" hrefs="{["", "menu", "reservation", "about", "process", "documentation"]}" pages="{["Home", "Our Menu", "Reservation", "About", "Our Process", "Documentation"]}"></Dropdown>
+                    <Dropdown bind:open text="" hrefs="{["", "menu", "reservation", "about", "process", "documentation"]}" pages="{["Home", "Our Menu", "Reservation", "About", "Our Process", "Reference Page"]}"></Dropdown>
                 </div>
                 <div class="hidden md:inline">
-                    <Dropdown bind:open text="More" states={["keyboard_arrow_down", "keyboard_arrow_up"]} hrefs="{["about", "process", "documentation"]}" pages="{["About", "Our Process", "Documentation"]}"></Dropdown>
+                    <Dropdown bind:open text="More" states={["keyboard_arrow_down", "keyboard_arrow_up"]} hrefs="{["about", "process", "documentation"]}" pages="{["About", "Our Process", "Reference Page"]}"></Dropdown>
                 </div>
                 <div class="max-sm:hidden inline md:hidden -mr-16">
-                    <Dropdown bind:open text="" hrefs="{["menu", "reservation", "about", "process", "documentation"]}" pages="{["Our Menu", "Reservation", "About", "Our Process", "Documentation"]}"></Dropdown>
+                    <Dropdown bind:open text="" hrefs="{["menu", "reservation", "about", "process", "documentation"]}" pages="{["Our Menu", "Reservation", "About", "Our Process", "Reference Page"]}"></Dropdown>
                 </div>
                 <i class="px-2"></i>
             </div>

@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Documentation | Savory Roots</title>
+	<title>Reference Page | Savory Roots</title>
 </svelte:head>
 
 {@render children()}

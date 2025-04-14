@@ -3,6 +3,7 @@
 	import GradientButton from "$lib/gradient-button.svelte";
 	import Navbar from "$lib/navbar.svelte";
 	import { writable } from "svelte/store";
+    import Clamped from "$lib/clamped.svelte";
 
 </script>
 
@@ -11,11 +12,14 @@
 </div>
 
 <div class="z-0 font-lato">
-    <img class="absolute top-0 right-0 w-full h-[512px]   select-none object-cover overflow-y-hidden" alt="Food" src="https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
     <!--<div class="relative top-0 flex w-fit min-w-1/2 h-[512px] bg-white/[.5]   px-8 items-center   backdrop-blur-sm">
         <h1 class="font-lato">Welcome to Savory Roots <br> <span class="font-display text-black text-left text-4xl tracking-tighter">Fresh food from farm to fork.</span></h1>
     </div>-->
     <div class="relative top-0 w-full h-[512px] flex   justify-center items-center">
+        
+    <a class="absolute top-0 right-0 w-full h-[512px] overflow-y-hidden p-0 m-0" href="https://www.pexels.com/photo/flat-lay-photography-of-variety-of-vegetables-1435904/">
+        <img class="object-cover w-full h-full" alt="Food" src="https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </a>
         <div class="flex w-full max-w-7xl h-full">
             <div class="flex flex-row bg-white/[0.7] backdrop-blur-sm w-fit h-full px-8   items-center">
                 <h1 class="font-lato">Welcome to Savory Roots <br> <span class="font-display text-black text-left text-4xl tracking-tighter">Fresh food from farm to fork.</span></h1>
@@ -39,4 +43,24 @@
             </div>
         </div>
     </div>
+
+    <div class="relative mt-8 top-0 w-full h-[512px] flex   justify-center items-center mb-8">
+        
+        <a class="absolute top-0 right-0 w-full h-[512px] overflow-y-hidden p-0 m-0" href="https://www.pexels.com/photo/green-and-brown-leaves-on-brown-wooden-tray-5720825/">
+            <img class="object-cover w-full h-full" alt="Food" src="https://images.pexels.com/photos/5720825/pexels-photo-5720825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        </a>
+            <div class="flex w-full max-w-7xl h-full">
+                <div class="flex ml-auto bg-white/[0.7] backdrop-blur-sm w-128 h-full px-8   items-center">
+                    <h1 class="text-lg font-lato tracking-normal text-right"><span class="font-display text-black text-4xl tracking-tighter w-full block">Our mission</span><br>Our mission at Savory Roots is to bring fresh, vegetarian dishes from farm to feast. We work our hardest to give our customers the best experience and food possible.</h1>
+                    <div class="absolute bottom-8 right-8 flex">
+                        <a class="flex flex-row h-min   space-x-4 items-center   group   bg-white hover:bg-black rounded-full pl-2   border-2 text-white hover:text-black" href="/about/">
+                            <h1 class="text-black group-hover:text-white">Learn more</h1>
+                            <GradientButton element="div" text="arrow_outward" title="About" font="icons" href="/about/"></GradientButton>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="mb-8 rounded-lg overflow-hidden mx-auto max-w-7xl" style="width: 100%"><iframe width="100%" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=512&amp;hl=en&amp;q=50%20E%20Wynnewood%20Rd+(Savory%20Roots)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">best drones</a></iframe></div>
 </div>
