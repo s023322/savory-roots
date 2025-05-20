@@ -33,6 +33,6 @@
                     </a>
         </div>
     </div>
-        <div class="mb-8 rounded-lg overflow-hidden mx-auto max-w-7xl dark:invert top-8 relative" style="width: 100%"><iframe width="100%" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=512&amp;hl=en&amp;q=50%20E%20Wynnewood%20Rd+(Savory%20Roots)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">best drones</a></iframe></div>
+        <div class="mb-[1280px] mt-8 rounded-2xl overflow-hidden mx-auto max-w-7xl dark:invert top-8 relative" style="width: 100%"><iframe width="100%" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=512&amp;hl=en&amp;q=50%20E%20Wynnewood%20Rd+(Savory%20Roots)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">best drones</a></iframe></div>
         <div class="block h-8 relative"></div>
 </div>

@@ -47,6 +47,7 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
     background-color: var(--color-white);
+    transition-duration: 500ms;
 }
 
 ::-webkit-scrollbar {

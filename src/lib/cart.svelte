@@ -26,7 +26,8 @@
                 addedPrice += data["items"][i].price;
             }
         }
-        localStorage.setItem("cartTotal", addedPrice.toString());
+        addedPrice = Math.round(addedPrice * 100.0) / 100.0;
+        localStorage.setItem("cartTotal", addedPrice.toFixed(2).toString());
         cartTotal.set(addedPrice);
         
     }
@@ -86,7 +87,7 @@
             <div class="w-full h-0.5 my-2 bg-dark"></div>
             <div class="flex flex-row   justify-between -mb-2">
                 <h1>Total</h1>
-                <h1>${addedPrice}</h1>
+                <h1>${addedPrice.toFixed(2)}</h1>
             </div>
         </div>
         {#if count > 0}

@@ -127,7 +127,7 @@
             "description": "Pan-seared and topped with Garlic. Served with a side of Oyster Sauce.",
             "price": 12.99,
             "color": "oklch(27.4% 0.072 132.109)",
-            "image": "https://images.pexels.com/photos/4252145/pexels-photo-4252145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "image": "/pexels-photo-4252145.png",
             "url": "https://www.pexels.com/photo/person-holding-black-cooking-pan-with-vegetable-salad-4252145/"
         }
     ],

@@ -5,9 +5,17 @@
 	import PlainButton from "./plain-button.svelte";
     import { itemCount } from "./stores";
     import { browser } from "$app/environment";
-    let open = false;
+    import { page } from '$app/state';
 
-    let count = 0
+    let open = $state(false);
+
+    let count = $state(0);
+    
+    let scrollY = $state(0);
+    
+    let innerHeight = $state(0);
+
+    let home = page.url.pathname == "/";
 
     const unsub = itemCount.subscribe((value) => {count = value; if (browser) {localStorage.setItem("itemCount", value.toString()); }})
 
@@ -22,32 +30,36 @@
         "dark");
         localStorage.theme = document.body.classList.contains("dark") ? "dark" : "light";
     }
+
+
 </script>
 
+<svelte:window bind:scrollY={scrollY} bind:innerHeight={innerHeight}/>
+
 <main class="z-50 top-0">
-    <div class="fixed top-0 flex w-full {open && "h-80 sm:h-72 md:h-24"} {!open && "h-16"} transition-all   justify-center backdrop-blur-sm bg-white dark:bg-black">
+    <div class="fixed top-0 flex w-full {open && "h-80 sm:h-72 md:h-24"} {!open && "h-16"} transition-all   justify-center backdrop-blur-sm {home && scrollY < innerHeight ? "bg-transparent" : "bg-white/[0.8] dark:bg-black/[0.8]"}">
         <div class="flex max-w-7xl w-full h-16   justify-between   px-8 z-50">
             <div class="flex   items-center space-x-8">
-                <a class="font-display text-xl sm:text-2xl sm:mr-16 tracking-tighter whitespace-nowrap" href="/">Savory Roots</a>
+                <a class="font-display {home && scrollY < innerHeight ? "text-white" : "text-black"} dark:text-white text-xl sm:text-2xl sm:mr-16 tracking-tighter whitespace-nowrap" href="/">Savory Roots</a>
                 <div class="hidden sm:flex items-center space-x-8">
-                    <PlainButton text="Home" href="/"></PlainButton>
+                    <PlainButton text="Home" href="/" home={home && scrollY < innerHeight}></PlainButton>
                 </div>
                 <div class="hidden md:flex item-center space-x-8">
-                    <PlainButton text="Our Menu" href="/menu"></PlainButton>
-                    <PlainButton text="Reservation" href="/reservation"></PlainButton>
+                    <PlainButton text="Our Menu" href="/menu" home={home && scrollY < innerHeight}></PlainButton>
+                    <PlainButton text="Reservation" href="/reservation" home={home && scrollY < innerHeight}></PlainButton>
                 </div>
                 <div class="max-sm:inline hidden -mr-16">
-                    <Dropdown bind:open text="" hrefs="{["", "menu", "reservation", "about", "process", "documentation"]}" pages="{["Home", "Our Menu", "Reservation", "About", "Our Process", "Reference Page"]}"></Dropdown>
+                    <Dropdown bind:open text="" home={home && scrollY < innerHeight} hrefs={["", "menu", "reservation", "about", "process", "documentation"]} pages={["Home", "Our Menu", "Reservation", "About", "Our Process", "Reference Page"]}></Dropdown>
                 </div>
                 <div class="hidden md:inline">
-                    <Dropdown bind:open text="More" states={["keyboard_arrow_down", "keyboard_arrow_up"]} hrefs="{["about", "process", "documentation"]}" pages="{["About", "Our Process", "Reference Page"]}"></Dropdown>
+                    <Dropdown bind:open text="More" home={home && scrollY < innerHeight} states={["keyboard_arrow_down", "keyboard_arrow_up"]} hrefs={["about", "process", "documentation"]} pages={["About", "Our Process", "Reference Page"]}></Dropdown>
                 </div>
                 <div class="max-sm:hidden inline md:hidden -mr-16 z-50">
-                    <Dropdown bind:open text="" hrefs="{["menu", "reservation", "about", "process", "documentation"]}" pages="{["Our Menu", "Reservation", "About", "Our Process", "Reference Page"]}"></Dropdown>
+                    <Dropdown bind:open text="" home={home} hrefs={["menu", "reservation", "about", "process", "documentation"]} pages={["Our Menu", "Reservation", "About", "Our Process", "Reference Page"]}></Dropdown>
                 </div>
                 <i class="px-2"></i>
             </div>
-            <div class="hidden lg:flex   items-center">
+            <div class="hidden lg:flex   items-center {home && scrollY < innerHeight ? "text-white" : "text-blacks"} dark:text-white">
                 <h1>Mon-Sat 10AM-10PM</h1>
             </div>
             <div class="flex -mr-4   items-center w-fit h-full">

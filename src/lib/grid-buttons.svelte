@@ -70,9 +70,9 @@
                 </button>
                 <h1 class="text-dark text-md/[0.5]   ml-2 mb-1 mr-3">${item.price}</h1>
             </div>
-            <a href="{item.url}" class="relative w-full top-16 sm:top-32 h-44 sm:h-40 p-2 float-left   bg-white/[0.8] dark:bg-black/[0.8]">
-                <h1 class="text-black dark:text-white font-display text-sm sm:text-xl text-left">{item.name}</h1>
-                <h1 class="text-black dark:text-white text-sm/[1] sm:text-lg/[1] text-left">{item.description}</h1>
+            <a href="{item.url}" class="relative w-full top-16 sm:top-32 h-44 sm:h-40 p-2 float-left   bg-white/[0.8] backdrop-blur-sm dark:bg-black/[0.8]">
+                <h1 class="text-black dark:text-white font-display text-[20px] sm:text-[28.4px]/[0.9] text-left">{item.name}</h1>
+                <h1 class="text-black dark:text-white text-[12px]/[1] sm:text-[12.8px]/[1] mt-2 text-left">{item.description}</h1>
             </a>
         </div>
     </div>
