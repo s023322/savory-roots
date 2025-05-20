@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Croissant+One');
+@import url('https://fonts.googleapis.com/css?family=Spline+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:semibold');
 @import url('https://fonts.googleapis.com/css?family=Material+Symbols+Outlined');
 @import 'tailwindcss';
-
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
-    --font-lato: "Lato", "sans-serif";
-    --font-display: "Croissant One", "georgia";
+    --font-lato: "Spline Sans", "sans-serif";
+    --font-display: "Playfair Display", "georgia";
     --font-icons: "Material Symbols Outlined";
 
     --animate-button: btn 250ms ease-in-out 1;
     --animate-delete: delete 250ms ease-in-out 1;
+    --animate-gradient: gradient 1s ease infinite;
+
+    --color-black: oklch(0.18 0.0814 57.89);
+    --color-dark: oklch(0.54 0.0598 126.11);
+    --color-light: oklch(0.83 0.0637 121.54);
+    --color-white: oklch(0.97 0.0169 88);
 
     @keyframes btn {
         10%, 90% {
@@ -22,14 +28,31 @@
             pointer-events: none;
         }
     }
+
+    @keyframes gradient {
+        0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+    }
 }
 
-:global(html) {
+:global(html, body) {
     font-family: "Lato", "sans-serif";
     scrollbar-width: none;
     -ms-overflow-style: none;
+    background-color: var(--color-white);
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.clear-text {
+    -webkit-text-fill-color: transparent;
 }

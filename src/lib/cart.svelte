@@ -71,11 +71,11 @@
 </script>
 
 <div class="lg:w-64 lg:h-fit  transition-all duration-50 overflow-hidden lg:relative lg:top-0 lg:flex    max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:fixed max-lg:block   {!open && "max-lg:w-0 max-lg:max-w-0 max-lg:h-0 max-lg:top-24"} {open && "max-lg:block max-lg:h-fit max-lg:top-24 max-lg:px-8 max-lg:min-w-full max-lg:max-w-7xl"}">
-    <div class="flex flex-col justify-center p-4 rounded-3xl w-full   text-gray-300 bg-white border-2">
-        <h1 class="font-display text-black text-xl">Cart</h1>
-        <div class="flex flex-col p-2   text-black">
+    <div class="flex flex-col justify-center p-4 rounded-3xl w-full   text-light dark:text-dark bg-white dark:bg-black border-2">
+        <h1 class="font-display text-black dark:text-white text-xl">Cart</h1>
+        <div class="flex flex-col p-2   text-black dark:text-white">
             {#each items as item, i}
-                    <button onmousedown={() => {removeItem(item); updateTotal()}} class="w-full flex flex-row justify-between   text-black hover:text-amber-300 cursor-pointer transition-colors duration-200  active:animate-delete">
+                    <button onmousedown={() => {removeItem(item); updateTotal()}} class="w-full flex flex-row justify-between   text-black dark:text-white hover:text-light cursor-pointer transition-colors duration-200  active:animate-delete">
                         <div class="flex items-center space-x-2">
                             <h1 class="font-icons">close</h1>
                             <h1>{item.name}</h1>
@@ -83,16 +83,16 @@
                         <h1>${item.price}</h1>
                     </button>
             {/each}
-            <div class="w-full h-0.5 my-2 bg-amber-800"></div>
+            <div class="w-full h-0.5 my-2 bg-dark"></div>
             <div class="flex flex-row   justify-between -mb-2">
                 <h1>Total</h1>
                 <h1>${addedPrice}</h1>
             </div>
         </div>
         {#if count > 0}
-        <div class="mt-4 text-gray-300 border-2 rounded-full w-min hover:border-white">
-            <a class="flex flex-row w-min   space-x-4 items-center   group   bg-white hover:bg-black rounded-full pl-2   border-2 text-white hover:text-black" href="/checkout/">
-                <h1 class="text-black group-hover:text-white text-nowrap">Checkout</h1>
+        <div class="mt-4 text-light border-2 rounded-full w-min hover:border-white">
+            <a class="flex flex-row w-min   space-x-4 items-center   group   bg-white hover:bg-black dark:bg-black dark:hover:bg-white rounded-full pl-2   border-2 text-white hover:text-black dark:text-black dark:hover:text-white" href="/checkout/">
+                <h1 class="text-black dark:text-white group-hover:text-white dark:group-hover:text-black text-nowrap">Checkout</h1>
                 <GradientButton element="div" text="arrow_outward" title="Checkout" font="icons" href="/checkout/"></GradientButton>
             </a>
         </div>
@@ -102,7 +102,7 @@
 <div class="fixed z-60 top-0 w-full left-0  flex lg:hidden pointer-events-none">
     <div class="flex justify-end float-right ml-auto mr-8 py-4">
         <button class="relative flex pointer-events-auto" onclick="{updateDrop}">
-            <h1 class="relative left-9 bottom-1.5 px-[5px] py-[1px] pointer-events-none h-min   bg-black text-white rounded-full text-xs">{count}</h1>
+            <h1 class="relative left-9 bottom-1.5 px-[5px] py-[1px] pointer-events-none h-min   bg-black dark:bg-white text-white dark:text-black rounded-full text-xs">{count}</h1>
             <GradientButton font="icons" text={text} element="h1" href=""></GradientButton>
         </button>
     </div>

@@ -12,12 +12,12 @@
 </div>
 
 <div class="z-0 font-lato text-xl max-w-7xl space-y-8 p-8 relative mx-auto">
-    <h1 class="font-display text-2xl text-black relative mt-16 mb-8">About Us</h1>
+    <h1 class="font-display text-2xl text-black dark:text-white relative mt-16 mb-8 text-[67px]">About Us</h1>
     <p>Ever since its creation in 1945, Savory Roots has been proud to serve the families of Pennsylvania providing them with handcrafted dishes and an experience that leaves each customer coming back for more each and every year. Something that, while a small part of our mission statement, means worlds to us and the work of our staff each and every day.</p>
 
-    <div class="w-full h-7 border-b-2 border-amber-800"></div>
+    <div class="w-full h-7 border-b-2 border-dark"></div>
     
-    <h1 class="font-display text-2xl text-black relative mt-16">Frequently Asked Questions</h1>
+    <h1 class="font-display text-2xl text-black dark:text-white relative mt-16 text-[50.5px]">Frequently Asked Questions</h1>
 
     <Question question="What are your days and hours of operation?" answer="10AM to 10PM, Five days a week(Mon-Fri)"></Question>
     <Question question="How does your restaurant handle allergies?" answer="While we cannot promise to meet the exact needs of every customer, our menu is tailored to handle a variety of allergies, as our chefs are trained and certified to provide allergen friendly meals while avoiding cross contamination."></Question>
@@ -28,9 +28,9 @@
     <div class="mb-8"></div>
 
     
-    <div class="w-full h-7 border-b-2 border-amber-800"></div>
+    <div class="w-full h-7 border-b-2 border-dark"></div>
     
-    <h1 class="font-display text-2xl text-black relative mt-16">Our staff</h1>
+    <h1 class="font-display text-2xl text-black dark:text-white relative mt-16 text-[50.5px]">Our staff</h1>
     <ul class="space-y-8 mb-8">
         <li>
             <a href="https://www.pexels.com/photo/old-man-smiling-2421934/" class="w-full flex flex-col sm:flex-row items-center">

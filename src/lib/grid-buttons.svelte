@@ -62,17 +62,17 @@
 <div class="flex justify-center">
 <div style="grid-template-columns: repeat({cols}, minmax(0, 1fr));" class="grid max-sm:grid-cols-1 max-md:grid-cols-2 w-fit max-w-7xl   gap-8">
 {#each pageData as item, i}
-    <div class="flex   w-40 sm:w-64 h-72 sm:h-80 rounded-3xl p-2 m-0   text-gray-300 border-2">
+    <div class="flex   w-40 sm:w-64 h-72 sm:h-80 rounded-3xl p-2 m-0   text-light dark:text-dark border-2">
         <div style="background-image: url('{item.image}'); background-color: {item.color};" class="w-full h-full bg-cover bg-center   rounded-2xl   overflow-hidden">
-            <div class="flex float-left w-fit h-fit bg-white rounded-b-2xl   items-center">
+            <div class="flex float-left w-fit h-fit bg-white dark:bg-black rounded-b-2xl   items-center">
                 <button onclick={() => updateItems(item)} class="flex w-fit h-fit">
                     <GradientButton text="add" font="icons" element="div" href=""></GradientButton>
                 </button>
-                <h1 class="text-amber-800 text-md/[0.5]   ml-2 mb-1 mr-3">${item.price}</h1>
+                <h1 class="text-dark text-md/[0.5]   ml-2 mb-1 mr-3">${item.price}</h1>
             </div>
-            <a href="{item.url}" class="relative w-full top-16 sm:top-32 h-44 sm:h-40 p-2 float-left   bg-white/[0.75] backdrop-blur-sm">
-                <h1 class="text-black font-display text-sm sm:text-xl text-left">{item.name}</h1>
-                <h1 class="text-black text-sm/[1] sm:text-lg/[1] text-left">{item.description}</h1>
+            <a href="{item.url}" class="relative w-full top-16 sm:top-32 h-44 sm:h-40 p-2 float-left   bg-white/[0.8] dark:bg-black/[0.8]">
+                <h1 class="text-black dark:text-white font-display text-sm sm:text-xl text-left">{item.name}</h1>
+                <h1 class="text-black dark:text-white text-sm/[1] sm:text-lg/[1] text-left">{item.description}</h1>
             </a>
         </div>
     </div>

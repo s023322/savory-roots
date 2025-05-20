@@ -4,7 +4,7 @@
         {
             "name": "Scallion Pancake",
             "description": "Pancakes infused with a cream cheese filling, topped with diced green onions.",
-            "price": 7,
+            "price": 6.99,
             "color": "oklch(89.7% 0.196 126.665)",
             "image": "https://images.pexels.com/photos/13887556/pexels-photo-13887556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/fritters-with-sesame-sauce-13887556/"
@@ -12,7 +12,7 @@
         {
             "name": "Spring Rolls",
             "description": "Pan fried pastry sheets, served with spring onions, cabbage or carrots.",
-            "price": 8,
+            "price": 7.99,
             "color": "oklch(87.9% 0.169 91.605)",
             "image": "https://images.pexels.com/photos/6646369/pexels-photo-6646369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/food-restaurant-dinner-lunch-6646369/"
@@ -20,7 +20,7 @@
         {
             "name": "Stuffed Eggplant",
             "description": "Eggplant stuffed with vegetables, and a side of Yuxiang sauce.",
-            "price": 9,
+            "price": 8.99,
             "color": "oklch(89.7% 0.196 126.665)",
             "image": "https://images.pexels.com/photos/5864347/pexels-photo-5864347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/close-up-photography-of-eggplant-schnitzels-5864347/"
@@ -28,7 +28,7 @@
         {
             "name": "Seaweed Salad",
             "description": "Seaweed topped with onions, scallions and carrots, and a side of peanut sauce.",
-            "price": 12,
+            "price": 11.99,
             "color": "oklch(85.5% 0.138 181.071)",
             "image": "https://images.pexels.com/photos/6646362/pexels-photo-6646362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/green-vegetable-on-white-ceramic-bowl-6646362/"
@@ -36,7 +36,7 @@
         {
             "name": "Cucumber Salad",
             "description": "Sliced cucumbers topped with red onions, and a white vinegar dressing.",
-            "price": 12,
+            "price": 11.99,
             "color": "oklch(62.7% 0.194 149.214)",
             "image": "https://images.pexels.com/photos/12077972/pexels-photo-12077972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/asian-cucumber-salad-12077972/"
@@ -47,7 +47,7 @@
         {
             "name": "Shiitake Wonton",
             "description": "Traditional dumplings stuffed with a Tofu and Shiitake mushroom filling.",
-            "price": 12,
+            "price": 11.99,
             "color": "oklch(28.6% 0.066 53.813)",
             "image": "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/round-white-and-blue-ceramic-bowl-with-cooked-ball-soup-and-brown-wooden-chopsticks-955137/"
@@ -55,7 +55,7 @@
         {
             "name": "Chive Dumplings",
             "description": "Dumplings stuffed with Chinese Chives and Garlic. Served with a Black Vinegar and Soy Sauce dressing.",
-            "price": 10,
+            "price": 9.99,
             "color": "oklch(84.1% 0.238 128.85)",
             "image": "https://images.pexels.com/photos/1385185/pexels-photo-1385185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/round-blue-saucer-filled-with-soy-sauce-1385185/"
@@ -63,7 +63,7 @@
         {
             "name": "Sticky Rice Shumai",
             "description": "Dumplings stuffed with Shittake Mushrooms and Sticky Rice. Served with a side of Oyster Sauce.",
-            "price": 15,
+            "price": 14.99,
             "color": "oklch(66.6% 0.179 58.318)",
             "image": "https://images.pexels.com/photos/17998833/pexels-photo-17998833/free-photo-of-dumplings-in-a-bamboo-box.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/dumplings-in-a-bamboo-box-17998833/"
@@ -71,7 +71,7 @@
         {
             "name": "Vegetable Buns",
             "description": "Served with a choice of vegetables or Tofu. Served with a side of Soy Sauce.",
-            "price": 8,
+            "price": 7.99,
             "color": "oklch(89.7% 0.196 126.665)",
             "image": "https://images.pexels.com/photos/31173340/pexels-photo-31173340/free-photo-of-delicious-asian-cuisine-in-bamboo-steamer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/delicious-asian-cuisine-in-bamboo-steamer-31173340/"
@@ -82,7 +82,7 @@
         {
             "name": "Seasonal Mix Ho Fun",
             "description": "Vegetables and tofu covered with oyster sauce or soy sauce.",
-            "price": 16,
+            "price": 15.99,
             "color": "oklch(93.8% 0.127 124.321)",
             "image": "https://images.pexels.com/photos/1815898/pexels-photo-1815898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/photograph-of-fried-noodles-with-vegetables-1815898/"
@@ -90,7 +90,7 @@
         {
             "name": "Sesame Oil House Noodles",
             "description": "Fried in Sesame Oil and topped with a choice of vegetables.",
-            "price": 15,
+            "price": 14.99,
             "color": "oklch(92.4% 0.12 95.746)",
             "image": "https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/close-up-photo-of-cooked-pasta-2456435/"
@@ -98,7 +98,7 @@
         {
             "name": "Spicy Sauce House Noodles",
             "description": "Fried and topped with Chili Garlic sauce.",
-            "price": 15,
+            "price": 14.99,
             "color": "oklch(70.4% 0.191 22.216)",
             "image": "https://images.pexels.com/photos/8746207/pexels-photo-8746207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/white-ceramic-bowl-with-pasta-and-vegetables-8746207/"
@@ -109,7 +109,7 @@
         {
             "name": "Stir Fried Bok Choy",
             "description": "Pan-seared in toasted Sesame Oil and topped with Red Pepper Flakes. Served with a side of Garlic sauce.",
-            "price": 13,
+            "price": 12.99,
             "color": "oklch(76.8% 0.233 130.85)",
             "image": "https://images.pexels.com/photos/7363773/pexels-photo-7363773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/green-vegetables-on-a-white-ceramic-plate-7363773/"
@@ -117,7 +117,7 @@
         {
             "name": "String Beans with Garlic",
             "description": "Sautéed and roasted over a pan. Served with a side of Garlic and Butter.",
-            "price": 15,
+            "price": 14.99,
             "color": "oklch(27.4% 0.072 132.109)",
             "image": "https://images.pexels.com/photos/3298693/pexels-photo-3298693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/stir-fry-sweet-peas-3298693/"
@@ -125,7 +125,7 @@
         {
             "name": "Broccoli with Garlic",
             "description": "Pan-seared and topped with Garlic. Served with a side of Oyster Sauce.",
-            "price": 13,
+            "price": 12.99,
             "color": "oklch(27.4% 0.072 132.109)",
             "image": "https://images.pexels.com/photos/4252145/pexels-photo-4252145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/person-holding-black-cooking-pan-with-vegetable-salad-4252145/"
@@ -136,7 +136,7 @@
         {
             "name": "Seasonal Medley",
             "description": "Stir-fried with a selection of seasonal vegetables. Served with a side of Oyster and Sesame Sauce.",
-            "price": 15,
+            "price": 14.99,
             "color": "oklch(63.7% 0.237 25.331)",
             "image": "https://images.pexels.com/photos/26651106/pexels-photo-26651106/free-photo-of-bowl-of-soup-with-red-chili-peppers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/bowl-of-soup-with-red-chili-peppers-26651106/"
@@ -144,7 +144,7 @@
         {
             "name": "Lotus Roots",
             "description": "Stewed and served in a broth along with a choice of Seaweed, Ginger and Tofu. Served with a side of steamed rice.",
-            "price": 13,
+            "price": 12.99,
             "color": "oklch(89.7% 0.196 126.665)",
             "image": "https://images.pexels.com/photos/10672908/pexels-photo-10672908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/a-soup-dish-on-a-black-bowl-10672908/"
@@ -155,7 +155,7 @@
         {
             "name": "Mapo Tofu over Rice",
             "description": "Braised in a rich and savory garlic sauce. Served with a side of Tofu and Scallions",
-            "price": 14,
+            "price": 13.99,
             "color": "oklch(83.7% 0.128 66.29)",
             "image": "https://images.pexels.com/photos/6120236/pexels-photo-6120236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/cooked-food-in-a-bowl-6120236/"
@@ -163,7 +163,7 @@
         {
             "name": "Seasonal Fried Rice",
             "description": "Steamed with a choice of seasonal vegetables and topped with an optional egg. Served with a side of Soy Sauce. ",
-            "price": 11,
+            "price": 10.99,
             "color": "oklch(63.7% 0.237 25.331)",
             "image": "https://images.pexels.com/photos/6937455/pexels-photo-6937455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/cooked-fried-rice-in-a-pan-6937455/"
@@ -171,7 +171,7 @@
         {
             "name": "House Fried Rice",
             "description": "Steamed and served with a choice of vegetables, tofu and diced eggs. Served with a choice of Oyster or Soy Sauce.",
-            "price": 13,
+            "price": 12.99,
             "color": "oklch(82.8% 0.111 230.318)",
             "image": "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/cooked-rice-on-black-ceramic-plate-723198/"
@@ -179,7 +179,7 @@
         {
             "name": "Garlic Eggplant over Rice",
             "description": "Pan-Seared and served on a bed of fluffy rice. Served with a side of Garlic Sauce.",
-            "price": 12,
+            "price": 11.99,
             "color": "oklch(70.2% 0.183 293.541)",
             "image": "https://images.pexels.com/photos/6631960/pexels-photo-6631960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "url": "https://www.pexels.com/photo/cooked-food-in-gray-ceramic-bowl-6631960/"

@@ -6,6 +6,6 @@
 </script>
 
 
-<svelte:element this={element} href={href || null} title={title} class="px-{padding} py-1 cursor-pointer   select-none transition duration-200 from-black to-black bg-linear-to-tl hover:from-amber-300 hover:to-amber-800 group-hover:from-amber-300 group-hover:to-amber-800 rounded-full active:from-white active:to-black active:animate-button">
-    <h1 class="font-{font} text-white">{text}<span class="font-icons relative top-0.5">{iconText}</span></h1>
+<svelte:element this={element} href={href || null} title={title} class="px-{padding} py-1 cursor-pointer   select-none transition duration-200 from-black to-black bg-linear-to-tl hover:from-light hover:to-dark group-hover:from-light group-hover:to-dark rounded-full active:from-white active:to-black active:animate-button   dark:from-white dark:to-white dark:active:from-black dark:active:to-white">
+    <h1 class="font-{font} text-white dark:text-black">{text}<span class="font-icons relative top-0.5">{iconText}</span></h1>
 </svelte:element>

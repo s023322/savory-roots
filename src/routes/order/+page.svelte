@@ -39,9 +39,9 @@
 
 {#if orderReceived}
 <button onclick={() => {orderReceived = !orderReceived}} class="fixed left-0 top-32 w-full h-fit flex justify-center z-100 cursor-pointer">
-    <div class="backdrop-blur-sm bg-white/[0.9] w-fit h-fit px-4 py-2 border-2 text-gray-300 rounded-lg space-y-4">
-        <h1 class="font-display text-2xl text-black">Order {orderStatus.includes("complete") ? "Complete" : "Failed"} <span class="relative top-1 font-icons">{orderStatus.includes("complete") ? "check" : "close"}</span></h1>
-        <h1 class="text-lg text-black font-lato mb-2">{orderStatus.includes("complete") ? "Thank you!" : "Sorry, we couldn't complete your order"}</h1>
+    <div class="backdrop-blur-sm bg-white/[0.9] dark:bg-black/[0.9] w-fit h-fit px-4 py-2 border-2 text-light rounded-lg space-y-4">
+        <h1 class="font-display text-2xl text-black dark:text-white">Order {orderStatus.includes("complete") ? "Complete" : "Failed"} <span class="relative top-1 font-icons">{orderStatus.includes("complete") ? "check" : "close"}</span></h1>
+        <h1 class="text-lg text-black dark:text-white font-lato mb-2">{orderStatus.includes("complete") ? "Thank you!" : "Sorry, we couldn't complete your order"}</h1>
     </div>
 </button>
 {/if}

@@ -99,13 +99,13 @@ const options = {
             bind:elements
             theme="flat"
             fonts={[{
-                cssSrc: "https://fonts.googleapis.com/css?family=Lato"
+                cssSrc: "https://fonts.googleapis.com/css?family=Alegreya+Sans"
                 },
                 {
                 cssSrc: "https://fonts.googleapis.com/css2?family=Croissant+One"
                 }]}
-            variables={{fontFamily: "Croissant One, sans-serif, system-ui", colorDanger:"#7b3306", fontSizeBase:"16px", colorPrimaryText:"white", colorText:"black", colorPrimary:"#e17100", colorBackground:"white", borderRadius:"8px"}}
-            rules={{".Input":{fontFamily:"Lato", padding:"8px"}}}
+            variables={{fontFamily: "Croissant One, sans-serif, system-ui", colorDanger:"#ff0000", fontSizeBase:"16px", colorPrimaryText:"#faf5e9", colorText:"#451b00", colorPrimary:"#66754f", colorBackground:"#faf5e9", borderRadius:"8px"}}
+            rules={{".Input":{fontFamily:"Alegreya Sans", padding:"8px"}}}
             >
             <form on:submit|preventDefault={submit}>
                 <div class="hidden"><LinkAuthenticationElement /></div>
