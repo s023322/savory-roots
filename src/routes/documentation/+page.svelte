@@ -13,7 +13,7 @@
 
 <div class="z-0 font-lato text-xl max-w-7xl space-y-8 p-8 relative mx-auto">
     <h1 class="font-display text-2xl text-black dark:text-white relative mt-16 mb-8 text-[67px]">Reference Page</h1>
-    <p>All styling and the theme was created by 2082-901. Frameworks were used for efficiency but no templates were used.</p>
+    <p>All styling and the theme was created by 2082-901. Frameworks were used for efficiency, no templates were used.</p>
     <div class="flex space-x-8">
         <GradientButton text="Work Log" padding=4 href="/worklog.pdf"></GradientButton>
     </div>
