@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="500pt"
-   height="500pt"
-   viewBox="0 0 176.38889 176.38889"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.829812"
-     inkscape:cx="377.90767"
-     inkscape:cy="392.93654"
+     inkscape:zoom="1.2938725"
+     inkscape:cx="-33.233569"
+     inkscape:cy="287.50901"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="2869"
@@ -36,16 +36,10 @@
   <defs
      id="defs2">
     <rect
-       x="0"
-       y="0"
-       width="666.66667"
-       height="666.66667"
-       id="rect400" />
-    <rect
-       x="159.03273"
-       y="59.022457"
-       width="241.00836"
-       height="431.73834"
+       x="78.696609"
+       y="48.092373"
+       width="850.3606"
+       height="525.73706"
        id="rect236" />
   </defs>
   <g
@@ -55,21 +49,26 @@
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
-       id="text398"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:666.667px;font-family:'Croissant One';-inkscape-font-specification:'Croissant One';white-space:pre;shape-inside:url(#rect400);fill:#feffff;fill-opacity:0.96679"><tspan
-         x="0"
-         y="1254.5933"
-         id="tspan573">s</tspan></text>
+       id="text234"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display';white-space:pre;shape-inside:url(#rect236);fill:#eeeeee;stroke-width:0;-inkscape-stroke:none;stop-color:#000000" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:158.898px;font-family:'Croissant One';-inkscape-font-specification:'Croissant One';letter-spacing:-19.0558px;fill:#feffff;fill-opacity:0.96679;stroke-width:0.238346"
-       x="-7.1503067"
-       y="143.80875"
-       id="text515"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:101.6px;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display';fill:#eeeeee;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+       x="6.2187204"
+       y="103.54733"
+       id="text242"><tspan
          sodipodi:role="line"
-         id="tspan513"
-         style="stroke-width:0.238346"
-         x="-7.1503067"
-         y="143.80875">SR</tspan></text>
+         id="tspan240"
+         style="font-size:101.6px;stroke-width:0"
+         x="6.2187204"
+         y="103.54733">SR</tspan></text>
+    <path
+       style="fill:#eeeeee;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+       d="m 122.51629,90.085808 c 0,0 10.20381,6.782824 4.10735,9.550641 -6.09645,2.767791 -4.10735,-9.550641 -4.10735,-9.550641 z"
+       id="path456" />
+    <path
+       style="fill:#eeeeee;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+       d="m 46.610378,23.944569 c 0,0 10.20381,6.782824 4.10735,9.550637 -6.09645,2.76779 -4.10735,-9.550637 -4.10735,-9.550637 z"
+       id="path456-8" />
   </g>
 </svg>
