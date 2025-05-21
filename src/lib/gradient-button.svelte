@@ -1,5 +1,5 @@
 <script>
-    let {text, font = "lato", href, padding="2", title="", element="a", iconText=""} = $props();
+    let {text, font = "lato", href="", padding="2", title="", element="a", iconText=""} = $props();
     if (element == "h1") {
         element = "div";
     }

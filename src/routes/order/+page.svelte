@@ -3,7 +3,6 @@
 	import { page } from "$app/state";
 	import GradientButton from "$lib/gradient-button.svelte";
 	import GridButtons from "$lib/grid-buttons.svelte";
-	import Input from "$lib/input.svelte";
 	import Navbar from "$lib/navbar.svelte";
 	import StandardButton from "$lib/standard-button.svelte";
 	import Toggle from "$lib/toggle.svelte";

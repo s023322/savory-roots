@@ -57,3 +57,11 @@
 .clear-text {
     -webkit-text-fill-color: transparent;
 }
+
+::placeholder {
+    color: var(--color-light);
+}
+
+::-webkit-datetime-edit {
+    color: var(--color-dark);
+}

@@ -26,8 +26,9 @@
     <h1 class="font-display text-2xl text-black dark:text-white relative mt-16 mb-8 text-[50.5px]">Sources</h1>
 
     <ul class="list-none text-black dark:text-white">
+        <li><span class="font-display">Fonts</span> - <a class="underline" href="https://fonts.google.com/">Playfair Display and Spline Sans</a></li>
         <li><span class="font-display">Images</span> - <a class="underline" href="https://pexels.com">Pexels (Click on an image to find its source)</a></li>
-        <li><span class="font-display">Home Video</span> - <a class="underline" href="https://www.pexels.com/video/fresh-dim-sum-set-up-on-a-bamboo-steam-tray-for-cooking-3297268/">Pexels (Made by cottonbro studio)</a></li>
+        <li><span class="font-display">Video</span> - <a class="underline" href="https://www.pexels.com/video/fresh-dim-sum-set-up-on-a-bamboo-steam-tray-for-cooking-3297268/">Pexels (Made by cottonbro studio)</a></li>
     </ul>
 
     <div class="w-full h-7 border-b-2 border-dark"></div>
