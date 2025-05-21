@@ -9,7 +9,7 @@
 </div>
 
 <div class="z-0 font-lato text-xl max-w-7xl space-y-8 p-8 relative mx-auto">
-    <div class="flex flex-row m-0 justify-between">
+    <div class="flex flex-row m-0 justify-between items-center">
         <h1 class="font-display text-2xl text-black dark:text-white relative mt-16 mb-4 text-[67px]">Our Menu</h1>
         
         <div class="flex mt-[60px] text-dark border-2 rounded-full w-min h-min hover:border-white">

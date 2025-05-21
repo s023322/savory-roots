@@ -101,9 +101,9 @@
     </div>
 </div>
 <div class="fixed z-60 top-0 w-full left-0  flex lg:hidden pointer-events-none">
-    <div class="flex justify-end float-right ml-auto mr-10 py-4">
+    <div class="flex justify-end float-right ml-auto mr-9 py-4">
         <button class="relative flex pointer-events-auto" onclick="{updateDrop}">
-            <h1 class="relative left-11 bottom-1.5 px-[5px] py-[1px] pointer-events-none h-min   bg-black dark:bg-white text-white dark:text-black rounded-full text-xs">{count}</h1>
+            <h1 class="relative left-10 bottom-1.5 px-[5px] py-[1px] pointer-events-none h-min   bg-black dark:bg-white text-white dark:text-black rounded-full text-xs">{count}</h1>
             <GradientButton font="icons" text={text} element="h1" href=""></GradientButton>
         </button>
     </div>

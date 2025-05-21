@@ -33,6 +33,24 @@
                     </a>
         </div>
     </div>
-        <div class="mb-[1280px] mt-8 rounded-2xl overflow-hidden mx-auto max-w-7xl dark:invert top-8 relative" style="width: 100%"><iframe width="100%" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=512&amp;hl=en&amp;q=50%20E%20Wynnewood%20Rd+(Savory%20Roots)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">best drones</a></iframe></div>
+        <div class="relative mt-8 top-0 w-full h-[512px] flex   justify-center items-center">
+        
+        <a class="absolute top-0 right-0 w-full h-[512px] overflow-y-hidden p-0 m-0" href="https://www.pexels.com/photo/green-and-brown-leaves-on-brown-wooden-tray-5720825/">
+            <img class="object-cover w-full h-full" alt="Food" src="https://images.pexels.com/photos/5720825/pexels-photo-5720825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        </a>
+            <div class="flex w-full max-w-7xl h-full">
+                <div class="flex ml-auto bg-white/[0.8] dark:bg-black/[0.8] backdrop-blur-sm w-128 h-full px-8   items-center">
+                    <h1 class="text-lg font-lato tracking-normal text-left"><span class="font-display text-black dark:text-white text-4xl tracking-tighter w-full block">Our mission</span><br>Our mission at Savory Roots is to bring fresh, vegetarian dishes from farm to feast. We work our hardest to give our customers the best experience and food possible.</h1>
+                    <div class="absolute bottom-8 right-8 flex">
+                        <a class="flex flex-row h-min   space-x-4 items-center   group   bg-white dark:bg-black hover:bg-black dark:hover:bg-white rounded-full pl-2   border-2 text-white dark:text-black hover:text-black dark:hover:text-white" href="/about/">
+                            <h1 class="text-black dark:text-white group-hover:text-white dark:group-hover:text-black">Learn more</h1>
+                            <GradientButton element="div" text="arrow_outward" title="About" font="icons" href="/about/"></GradientButton>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 mt-0 rounded-2xl overflow-hidden mx-auto max-w-7xl dark:invert top-8 relative" style="width: 100%"><iframe width="100%" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=512&amp;hl=en&amp;q=50%20E%20Wynnewood%20Rd+(Savory%20Roots)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">best drones</a></iframe></div>
         <div class="block h-8 relative"></div>
 </div>
