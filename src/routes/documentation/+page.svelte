@@ -43,5 +43,6 @@
         <li><span class="font-display">Scripting</span> - <a class="underline" href="https://www.typescriptlang.org/">Typescript</a> & <a class="underline" href="https://www.javascript.com/">Javascript</a></li>
         <li><span class="font-display">Styling</span> - <a class="underline" href="https://tailwindcss.com">TailwindCSS</a></li>
         <li><span class="font-display">UI</span> - <a class="underline" href="https://svelte.dev">Svelte</a> & <a class="underline" href="https://svelte.dev/docs/kit/introduction">Sveltekit</a></li>
+        <li><span class="font-display">Fake Social Media</span> - <a class="underline" href="https://canva.com">Canva</li>
     </ul>
 </div>
