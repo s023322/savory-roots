@@ -20,7 +20,7 @@
         <li>
             <a href="https://www.pexels.com/photo/old-man-smiling-2421934/" class="w-full flex flex-col sm:flex-row items-center">
             <div class="w-full max-sm:p-8 sm:w-80 h-64 bg-cover relative bg-center overflow-hidden rounded-lg bg-[url(https://images.pexels.com/photos/2421934/pexels-photo-2421934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)]"></div>
-            <p class="w-full max-sm:mt-8 sm:px-8">A long-time chef and vegetarian, Yun Lan has served as Savory Roots’ executive chef for over four years. Known for his appearances on the food network, he now continues his passion within our humble kitchen, committing himself to a mission of innovation and creativity in each and every dish. </p></a>
+            <p class="w-full max-sm:mt-8 sm:px-8">A long-time chef and vegetarian, Yun Lan has served as Savory Roots’ executive chef for over four years. Known for his appearances on the Food Network, he now continues his passion within our humble kitchen, committing himself to a mission of innovation and creativity in each and every dish. </p></a>
         </li>
         <li>
             <a href="https://www.pexels.com/photo/man-in-gray-crew-neck-shirt-smiling-3761521/" class="w-full flex flex-col sm:flex-row items-center">
