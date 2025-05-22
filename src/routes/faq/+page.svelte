@@ -17,10 +17,10 @@
     <div class="w-full h-7 border-b-2 border-dark"></div>
 
     <Question question="What are your days and hours of operation?" answer="10AM to 10PM, Five days a week(Mon-Fri)"></Question>
-    <Question question="How does your restaurant handle allergies?" answer="While we cannot promise to meet the exact needs of every customer, our menu is tailored to handle a variety of allergies, as our chefs are trained and certified to provide allergen friendly meals while avoiding cross contamination."></Question>
+    <Question question="How does your restaurant handle allergies?" answer="While we cannot promise to meet the exact needs of every consumer, our menu is tailored to handle a variety of allergies, as our chefs and servers are trained and ServSafe certified to provide allergen friendly meals and prevent cross contamination."></Question>
     <Question question="How long is the wait time?" answer="While the average wait time varies day to day, customers can usually expect around a 45 minute to one hour wait, however reservations are available for those who wish to request a table in advance."></Question>
     <Question question="Do you offer takeout?" answer="Yes, we currently offer takeout on our website. See the menu tab for more information."></Question>
-    <Question question="What methods of payment do you accept?" answer="We currently accept cash, credit, debit cards and Apple pay as valid forms of payment."></Question>
-    <Question question="Do you use locally-sourced ingredients in your recipes?" answer="Yes, it is our mission to provide great food at a great value, something that comes in part from the help of our local community and partners who supply us with pesticide free, organic ingredients weekly."></Question>
+    <Question question="What methods of payment do you accept?" answer="We currently accept cash, credit, debit cards and Apple Pay as valid forms of payment."></Question>
+    <Question question="Do you use locally-sourced ingredients in your recipes?" answer="Yes, it is our mission to provide great food at a great value, something that comes in part from the help of our local community and partners who supply us with pesticide free, humane certified, organic ingredients weekly."></Question>
     <div class="mb-8"></div>
 </div>
