@@ -45,14 +45,6 @@
     "dumplings":
     [
         {
-            "name": "Shiitake Wonton",
-            "description": "Traditional dumplings stuffed with a Tofu and Shiitake mushroom filling.",
-            "price": 11.99,
-            "color": "oklch(28.6% 0.066 53.813)",
-            "image": "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "url": "https://www.pexels.com/photo/round-white-and-blue-ceramic-bowl-with-cooked-ball-soup-and-brown-wooden-chopsticks-955137/"
-        },
-        {
             "name": "Chive Dumplings",
             "description": "Dumplings stuffed with Chinese Chives and Garlic. Served with a Black Vinegar and Soy Sauce dressing.",
             "price": 9.99,
@@ -133,6 +125,14 @@
     ],
     "soups":
     [
+        {
+            "name": "Shiitake Wonton",
+            "description": "Traditional dumplings stuffed with a Tofu and Shiitake mushroom filling.",
+            "price": 11.99,
+            "color": "oklch(28.6% 0.066 53.813)",
+            "image": "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "url": "https://www.pexels.com/photo/round-white-and-blue-ceramic-bowl-with-cooked-ball-soup-and-brown-wooden-chopsticks-955137/"
+        },
         {
             "name": "Seasonal Medley",
             "description": "Stir-fried with a selection of seasonal vegetables. Served with a side of Oyster and Sesame Sauce.",
