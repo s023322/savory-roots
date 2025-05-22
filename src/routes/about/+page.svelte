@@ -15,8 +15,6 @@
     <h1 class="font-display text-2xl text-black dark:text-white relative mt-16 mb-8 text-[67px]">About Us</h1>
     <div class="w-full h-7 border-b-2 border-dark"></div>
     <a class="w-full h-fit" href="https://www.pexels.com/photo/close-up-photo-of-formal-table-setting-735869/"><img class="rounded-2xl overflow-hidden mb-8 h-96 w-full object-cover object-center" src="https://images.pexels.com/photos/735869/pexels-photo-735869.jpeg"></a>
-    <p>Ever since its creation in 1945, Savory Roots has been proud to serve the families of Pennsylvania providing them with handcrafted dishes and an experience that leaves each customer coming back for more each and every year. Something that, while a small part of our mission statement, means worlds to us and the work of our staff each and every day.</p>
-    <div class="w-full h-2 border-b-2 border-dark"></div>
     <p>Whether you love handcrafted, vegetarian dishes or looking to try something new, Savory Roots is the place for you. Here at Savory Roots we are proud to serve as the number one designation for the families of Pennsylvania. Having been awarded the Pennsylvania Restaurant & Lodging Association (PRLA) Spirit of Hospitality award two years running, it's no secret that we value our customers and the dishes we serve. Each day, our staff work tirelessly to provide handcrafted dishes that blend tradition with our commitment to providing vegetarian dishes that leaves each customer coming back year after year. </p>
 
 </div>
